@@ -12,7 +12,7 @@
   },
   "author": "Eugene Kalinin <e.v.kalinin@gmail.com>",
   "dependencies": {
-    "underscore": "^1.7.0",
+    "underscore": ">=1.13.8",
     "url-join": "^1.1.0"
   },
   "devDependencies": {
@@ -22,5 +22,11 @@
   "main": "index",
   "scripts": {
     "test": "./node_modules/expresso/bin/expresso tests/sitemap.test.js"
+  },
+  "overrides": {
+    "underscore": ">=1.13.8"
+  },
+  "resolutions": {
+    "underscore": ">=1.13.8"
   }
 }
