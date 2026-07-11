@@ -1,12 +1,15 @@
 {
   "name": "sitemap",
-  "version": "1.13.0",
+  "version": "1.13.0-lineaje-01",
   "description": "Sitemap-generating framework",
   "keywords": [
     "sitemap",
     "sitemap.xml"
   ],
-  "repository": "git://github.com/ekalinin/sitemap.js.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/ekalinin-sitemap.js"
+  },
   "author": "Eugene Kalinin <e.v.kalinin@gmail.com>",
   "dependencies": {
     "underscore": "^1.7.0",
